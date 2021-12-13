@@ -7,7 +7,7 @@ The data source selected for this analysis are the reviews for [baby products](h
 
 ## Results
 
-After organize the raw data from Amazon and store the tables in a database cloud service, we proceeded to calculate the total number , the 5 start reviews and the precentage for each group labeled as "VINE GROUP" and "NON VINE GROUP".
+After organizing the raw data from Amazon and storing the tables in a database cloud service, we proceeded to calculate the total number of reviews, the five-star reviews, and the percentage of each group labeled as "VINE GROUP" and "NON VINE GROUP".
 
 - How many Vine reviews and non-Vine reviews were there? The data set contains a total of 1,752,932 samples/reviews.
 - How many reviews were 5 start on each group?
@@ -19,5 +19,6 @@ After organize the raw data from Amazon and store the tables in a database cloud
   - 
 ## Summary 
 
-- Considering the percentage of the 5 star reviews between both groups, we can estimate than the difference is close  around 4% (43.63% - 47.95%). Based on this result, we can conclude that there is a slight margin of error but not enough to consider that there maybe a bias toward favorable reviews from the Vine group.
-- 
+- We can estimate that the difference between the five star reviews from both groups is close to 4% (43.63% - 47.95%). Based on this result, we can conclude that there is a slight margin of error between both groups, but it is not enough to consider it bias toward favorable reviews from the Vine group.
+
+-Something additional to keep in mind is the distribution of "star review" for each group. The following table shows the results for two queries counting the number of reviews by numeric ranking. The top ratings (3-4-5) have the highest proportion on both sides. This result can support our conclusion about the tendency to show similar behavior in both groups.
