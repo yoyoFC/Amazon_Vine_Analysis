@@ -23,10 +23,10 @@ After organizing the raw data from Amazon and storing the tables in a database c
 
 - We can estimate that the difference between the five star reviews from both groups is close to 4% (43.63% - 47.95%). Based on this result, we can conclude that there is a slight margin of error between both groups, but it is not enough to consider it bias toward favorable reviews from the Vine group.
 
--Something additional to keep in mind is the distribution of "star review" for each group. The following table shows the results for two queries counting the number of reviews by numeric ranking. The top ratings (3-4-5) have the highest proportion on both sides. This result can support our conclusion about the tendency to show similar behavior in both groups.
+- Something additional to keep in mind is the distribution of "star review" for each group. The following table shows the results for two queries counting the number of reviews by numeric ranking. The top ratings (3-4-5) have the highest proportion on both sides. This result can support our conclusion about the tendency to show similar behavior in both groups.
  
-<p align="center"><img src="https://user-images.githubusercontent.com/88695570/145752305-f4f5fe79-7d0e-4ac0-bd9d-e6f1fff730e4.png">
-       
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/145752447-59c3ce58-d27f-4d67-9e08-8efab540c16a.png">
+
 <p align="center"><img src="https://user-images.githubusercontent.com/88695570/145752310-af4b05d4-16db-4bcb-914d-fb099b832451.png">
 
     
